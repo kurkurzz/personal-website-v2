@@ -612,6 +612,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-grow: 1;
 }
 
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -896,6 +903,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:bg-opacity-100:hover {
   --tw-bg-opacity: 1;
+}
+
+.hover\:bg-opacity-40:hover {
+  --tw-bg-opacity: 0.4;
+}
+
+.hover\:bg-opacity-60:hover {
+  --tw-bg-opacity: 0.6;
+}
+
+.hover\:bg-opacity-80:hover {
+  --tw-bg-opacity: 0.8;
+}
+
+.hover\:bg-opacity-50:hover {
+  --tw-bg-opacity: 0.5;
 }
 
 .group:hover .group-hover\:opacity-100 {
