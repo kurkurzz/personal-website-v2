@@ -6,6 +6,9 @@ module.exports = {
 				'asteroid-dark': '#0F2027',
 				'asteroid-mid': '#203A43',
 				'asteroid-light': '#2C5364'
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 			}
 		},
 		container: {

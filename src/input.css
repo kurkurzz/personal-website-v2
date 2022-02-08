@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-background-gradient{
+	background-image: radial-gradient(ellipse at 45% 40%, #253247 30%, transparent 60%), radial-gradient(ellipse at 55% 30%, #70549b 0%, #0E1119 60%);
+}
