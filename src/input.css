@@ -5,3 +5,7 @@
 .main-background-gradient{
 	background-image: radial-gradient(ellipse at 40% 50%, #2e4263 20%, transparent 50%), radial-gradient(ellipse at 55% 30%, #ab85e4 0%, #0E1119 55%);
 }
+
+.icon-hover{
+	@apply grayscale opacity-30 group-hover:opacity-100 group-hover:grayscale-0
+}
