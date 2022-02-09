@@ -486,6 +486,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 2rem;
 }
 
+.z-0{
+  z-index: 0;
+}
+
+.z-10{
+  z-index: 10;
+}
+
 .col-span-1{
   grid-column: span 1 / span 1;
 }
@@ -694,12 +702,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-height: 0.25rem;
 }
 
+.max-h-36{
+  max-height: 9rem;
+}
+
+.max-h-48{
+  max-height: 12rem;
+}
+
+.max-h-8{
+  max-height: 2rem;
+}
+
 .w-96{
   width: 24rem;
 }
 
 .w-3\/4{
   width: 75%;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .max-w-screen-sm{
@@ -998,6 +1022,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-semibold{
   font-weight: 600;
 }
@@ -1025,6 +1054,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .opacity-80{
   opacity: 0.8;
+}
+
+.opacity-60{
+  opacity: 0.6;
 }
 
 .duration-300{
@@ -1093,6 +1126,32 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
+  .sm\:max-h-80{
+    max-height: 20rem;
+  }
+
+  .sm\:max-h-12{
+    max-height: 3rem;
+  }
+
+  .sm\:w-3\/4{
+    width: 75%;
+  }
+
+  .sm\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:opacity-100{
+    opacity: 1;
+  }
 }
 
 @media (min-width: 768px){
@@ -1120,6 +1179,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:h-1\/2{
     height: 50%;
+  }
+
+  .md\:max-h-80{
+    max-height: 20rem;
   }
 }
 
