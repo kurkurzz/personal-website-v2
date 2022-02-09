@@ -508,10 +508,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column-start: 6;
 }
 
-.col-start-1 {
-  grid-column-start: 1;
-}
-
 .row-span-2 {
   grid-row: span 2 / span 2;
 }
@@ -620,18 +616,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-24 {
-  height: 6rem;
-}
-
-.h-28 {
-  height: 7rem;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
 .max-h-12 {
   max-height: 3rem;
 }
@@ -644,16 +628,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-height: 5rem;
 }
 
-.max-h-16 {
-  max-height: 4rem;
-}
-
 .max-h-10 {
   max-height: 2.5rem;
-}
-
-.max-h-8 {
-  max-height: 2rem;
 }
 
 .max-h-9 {
@@ -784,12 +760,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .py-2 {
@@ -812,19 +788,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .align-middle {
   vertical-align: middle;
-}
-
-.opacity-30 {
-  opacity: 0.3;
-}
-
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.grayscale {
-  --tw-grayscale: grayscale(100%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .scrollbar-hide {
@@ -854,15 +817,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:bg-opacity-50:hover {
   --tw-bg-opacity: 0.5;
-}
-
-.group:hover .group-hover\:opacity-100 {
-  opacity: 1;
-}
-
-.group:hover .group-hover\:grayscale-0 {
-  --tw-grayscale: grayscale(0);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @media (min-width: 1536px) {
