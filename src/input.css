@@ -19,3 +19,7 @@
 .ltr{
 	direction: ltr;
 }
+
+.bold-gradient-text{
+	@apply font-extrabold bg-gradient-to-r text-transparent bg-clip-text from-purple-300 to-blue-300
+}
