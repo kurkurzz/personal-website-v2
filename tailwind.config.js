@@ -12,6 +12,7 @@ module.exports = {
 			},
 			fontFamily: {
 				'poppins': ['Poppins'],
+				'sourcecodepro': ['Source Code Pro'],
 			}
 		},
 		container: {
