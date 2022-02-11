@@ -596,6 +596,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-8{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .mt-auto{
   margin-top: auto;
 }
@@ -652,6 +662,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   aspect-ratio: 1 / 1;
 }
 
+.aspect-video{
+  aspect-ratio: 16 / 9;
+}
+
 .h-10{
   height: 2.5rem;
 }
@@ -670,6 +684,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-screen{
   height: 100vh;
+}
+
+.h-1\/5{
+  height: 20%;
+}
+
+.h-2\/5{
+  height: 40%;
+}
+
+.h-2\/6{
+  height: 33.333333%;
 }
 
 .max-h-12{
@@ -746,6 +772,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
+.grid-cols-1{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .grid-rows-5{
   grid-template-rows: repeat(5, minmax(0, 1fr));
 }
@@ -760,6 +790,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid-rows-4{
   grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.grid-rows-1{
+  grid-template-rows: repeat(1, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -852,6 +886,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(14 17 25 / var(--tw-bg-opacity));
 }
 
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-40{
   --tw-bg-opacity: 0.4;
 }
@@ -877,8 +916,27 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(248 113 113 / 0));
 }
 
+.from-yellow-400{
+  --tw-gradient-from: #facc15;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(250 204 21 / 0));
+}
+
+.from-pink-400{
+  --tw-gradient-from: #f472b6;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(244 114 182 / 0));
+}
+
+.from-blue-400{
+  --tw-gradient-from: #60a5fa;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(96 165 250 / 0));
+}
+
 .to-purple-600{
   --tw-gradient-to: #9333ea;
+}
+
+.to-emerald-600{
+  --tw-gradient-to: #059669;
 }
 
 .bg-clip-text{
@@ -963,6 +1021,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.font-light{
+  font-weight: 300;
 }
 
 .leading-3{
@@ -1064,6 +1130,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 1rem;
   }
 
+  .sm\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .sm\:h-24{
     height: 6rem;
   }
@@ -1078,6 +1149,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:w-3\/4{
     width: 75%;
+  }
+
+  .sm\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:text-4xl{
@@ -1125,6 +1200,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:h-1\/2{
     height: 50%;
   }
+
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (min-width: 1024px){
@@ -1134,6 +1213,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:col-span-8{
     grid-column: span 8 / span 8;
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
