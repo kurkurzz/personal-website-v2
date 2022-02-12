@@ -30,3 +30,41 @@
 .bold-gradient-text{
 	@apply font-extrabold bg-gradient-to-r text-transparent bg-clip-text from-purple-300 to-blue-300
 }
+
+.swiper {
+		/* width: 100%;
+		height: 100%; */
+		position: static;
+	}
+
+.swiper-slide {
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-slide{
+	@apply text-white
+}
+
+.swiper-button-next, .swiper-button-prev {
+    /* position: static; */
+	all:revert;
+	content: "";
+	@apply text-white w-16 h-16 rounded-md hover:bg-gradient-to-br from-red-500 to-yellow-300 text-center 
+	text-3xl content-none
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    content: "";
+}

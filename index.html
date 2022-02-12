@@ -22,6 +22,10 @@
 
 	<meta name="twitter:card" content="summary_large_image">
 	<link rel="icon" href="assets/favicon.ico">
+	<link
+		rel="stylesheet"
+		href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+	/>
 	<link href="dist/output.css" rel="stylesheet">
 	<title>So Nerd.</title>
 </head>
@@ -178,13 +182,74 @@
 			</div>
 		</div>
 	</div>
-	<div class="projects-background-gradient bg-[#0E1119]">
-		<div class="h-screen ">
-			<div class="2xl:container flex flex-col h-full aspect-auto mx-0 md:mx-8 pb-4 select-text">
+	<div class="projects-background-gradient bg-[#0E1119]">	
+		<div class="h-screen">
+			<div class="2xl:container flex flex-col h-full aspect-auto mx-8 xl:mx-4 pb-4 select-text">
 				<div class="h-1/6">
 					<h1 class="font-poppins text-white font font-extrabold text-6xl pt-20">Projects.</h1>
 				</div>
-				<div class="h-4/6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-8 mx-8 sm:mx-0 mt-20">
+				
+				<div class="swiper h-5/6 flex flex-col w-full">
+					<div class="swiper-wrapper h-2/3">
+						<div class="swiper-slide">
+							<div>
+								<h1 class="font-poppins text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-600">Emma</h1>
+								<img class="w-full aspect-video mt-4 rounded-lg" src="assets/emma.jpg" alt="apple"/>
+								<p class="font-poppins font-light mt-2 text-white">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+									Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+									when an unknown printer took a galley of type and scrambled it to make a 
+									type specimen book. It has survived not only five centuries
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div>
+								<h1 class="font-poppins text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-600">Stone</h1>
+								<img class="w-full aspect-video mt-4 rounded-lg" src="assets/emma-3.jpg" alt="apple"/>
+								<p class="font-poppins font-light mt-2 text-white">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+									Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+									when an unknown printer took a galley of type and scrambled it to make a 
+									type specimen book. It has survived not only five centuries
+									
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div>
+								<h1 class="font-poppins text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-600">eztempah.web.app</h1>
+								<img class="w-full aspect-video mt-4 rounded-lg" src="assets/emma-2.jpg" alt="apple"/>
+								<p class="font-poppins font-light mt-2 text-white">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+									Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+									when an unknown printer took a galley of type and scrambled it to make a 
+									type specimen book. It has survived not only five centuries
+									
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">Slide 4</div>
+						<div class="swiper-slide">Slide 5</div>
+						<div class="swiper-slide">Slide 6</div>
+						<div class="swiper-slide">Slide 7</div>
+						<div class="swiper-slide">Slide 8</div>
+						<div class="swiper-slide">Slide 9</div>
+						<div class="swiper-slide">Slide 10</div>
+					</div>
+					<!-- Add Arrows -->
+					<div class="flex-grow pt-10">
+						<div class="flex justify-end">
+							<div class="swiper-button-prev">&larr;</div>
+							<div class="ml-8 swiper-button-next">&rarr;</div>
+						</div>
+						
+					</div>
+				</div>
+
+				
+
+				<!-- <div class="h-4/6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-8 mx-8 sm:mx-0 mt-20">
 					<div>
 						<h1 class="font-poppins text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-600">Emma</h1>
 						<img class="w-full aspect-video mt-4 rounded-lg" src="assets/emma.jpg" alt="apple"/>
@@ -223,12 +288,13 @@
 				<div class="w-full flex justify-end  h-1/6 ">
 					<button class="w-12 h-12 bg-white hover:bg-slate-300 rounded-lg "><</button>
 					<button class="w-12 h-12 bg-white rounded-lg ml-4">></button>
-				</div>
+				</div> -->
 			</div>
 		</div>
 		<div class="h-screen "></div>
 	</div>
-	
-	
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<script src="swiper.js" type="module"></script>
+
 </body>
 </html>
