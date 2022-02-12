@@ -5,9 +5,7 @@ var swiper = new Swiper('.swiper', {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
 	},
-	observer: true,
-	observeParents: true,
-	parallax:true,
+	allowTouchMove: false,
 	slidesPerView: 1,
 	// Responsive breakpoints
 	breakpoints: {
@@ -22,4 +20,7 @@ var swiper = new Swiper('.swiper', {
 			spaceBetween: 40
 		},
 	}
+	// observer: true,
+	// observeParents: true,
+	// parallax:true,
 });
