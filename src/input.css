@@ -61,10 +61,11 @@
     /* position: static; */
 	all:revert;
 	content: "";
-	@apply text-white w-16 h-16 pt-2 px-1 rounded-md hover:bg-gradient-to-br from-red-500 to-yellow-300 text-center 
+	@apply text-white   w-14 h-14  rounded-md text-center  
 	text-3xl content-none
 }
-
+/* hover:text-sky-400
+hover:bg-gradient-to-br from-red-500 to-yellow-300 */
 .swiper-button-next::after, .swiper-button-prev::after {
     content: "";
 }
