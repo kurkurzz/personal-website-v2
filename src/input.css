@@ -69,3 +69,4 @@ hover:bg-gradient-to-br from-red-500 to-yellow-300 */
 .swiper-button-next::after, .swiper-button-prev::after {
     content: "";
 }
+
