@@ -616,6 +616,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: auto;
 }
 
+.m-1{
+  margin: 0.25rem;
+}
+
 .mx-0{
   margin-left: 0px;
   margin-right: 0px;
@@ -721,6 +725,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 6rem;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-28{
+  margin-top: 7rem;
+}
+
 .block{
   display: block;
 }
@@ -773,6 +785,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 0.75rem;
 }
 
+.h-2{
+  height: 0.5rem;
+}
+
+.h-12{
+  height: 3rem;
+}
+
+.h-24{
+  height: 6rem;
+}
+
 .max-h-12{
   max-height: 3rem;
 }
@@ -819,6 +843,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-3{
   width: 0.75rem;
+}
+
+.w-2{
+  width: 0.5rem;
 }
 
 .flex-grow{
@@ -901,6 +929,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-center{
   justify-content: center;
+}
+
+.justify-items-center{
+  justify-items: center;
 }
 
 .gap-2{
@@ -991,6 +1023,61 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(219 234 254 / var(--tw-bg-opacity));
 }
 
+.bg-green-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 252 232 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(133 77 14 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(202 138 4 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+
+.bg-slate-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
+.bg-blue-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-40{
   --tw-bg-opacity: 0.4;
 }
@@ -1005,6 +1092,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-opacity-80{
   --tw-bg-opacity: 0.8;
+}
+
+.bg-opacity-5{
+  --tw-bg-opacity: 0.05;
+}
+
+.bg-opacity-10{
+  --tw-bg-opacity: 0.1;
 }
 
 .bg-gradient-to-r{
@@ -1113,6 +1208,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-10{
   padding-top: 2.5rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .font-poppins{
@@ -1227,12 +1330,37 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+.text-red-600{
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
 .opacity-80{
   opacity: 0.8;
 }
 
 .opacity-60{
   opacity: 0.6;
+}
+
+.opacity-25{
+  opacity: 0.25;
+}
+
+.opacity-75{
+  opacity: 0.75;
+}
+
+.opacity-5{
+  opacity: 0.05;
+}
+
+.opacity-10{
+  opacity: 0.1;
+}
+
+.opacity-20{
+  opacity: 0.2;
 }
 
 .ring-8{
@@ -1380,6 +1508,46 @@ hover:bg-gradient-to-br from-red-500 to-yellow-300 */
   .dark\:bg-blue-200{
     --tw-bg-opacity: 1;
     background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-green-900{
+    --tw-bg-opacity: 1;
+    background-color: rgb(20 83 45 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-green-200{
+    --tw-bg-opacity: 1;
+    background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-green-300{
+    --tw-bg-opacity: 1;
+    background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-green-500{
+    --tw-bg-opacity: 1;
+    background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-yellow-900{
+    --tw-bg-opacity: 1;
+    background-color: rgb(113 63 18 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-yellow-800{
+    --tw-bg-opacity: 1;
+    background-color: rgb(133 77 14 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-yellow-700{
+    --tw-bg-opacity: 1;
+    background-color: rgb(161 98 7 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-yellow-600{
+    --tw-bg-opacity: 1;
+    background-color: rgb(202 138 4 / var(--tw-bg-opacity));
   }
 
   .dark\:text-blue-400{
