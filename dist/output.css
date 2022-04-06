@@ -645,6 +645,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 2rem;
 }
 
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mt-auto{
   margin-top: auto;
 }
@@ -1264,6 +1269,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.5rem;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-semibold{
   font-weight: 600;
 }
@@ -1672,6 +1687,11 @@ hover:bg-gradient-to-br from-red-500 to-yellow-300 */
   .md\:h-24{
     height: 6rem;
   }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 1024px){
@@ -1681,6 +1701,11 @@ hover:bg-gradient-to-br from-red-500 to-yellow-300 */
 
   .lg\:col-span-8{
     grid-column: span 8 / span 8;
+  }
+
+  .lg\:mx-8{
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .lg\:mt-36{
@@ -1704,6 +1729,16 @@ hover:bg-gradient-to-br from-red-500 to-yellow-300 */
   .xl\:mx-4{
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .xl\:mx-6{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .xl\:mx-8{
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
 
