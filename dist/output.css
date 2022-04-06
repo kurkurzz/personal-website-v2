@@ -733,6 +733,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 7rem;
 }
 
+.mt-16{
+  margin-top: 4rem;
+}
+
 .block{
   display: block;
 }
@@ -795,6 +799,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-24{
   height: 6rem;
+}
+
+.h-16{
+  height: 4rem;
 }
 
 .max-h-12{
@@ -1637,6 +1645,18 @@ hover:bg-gradient-to-br from-red-500 to-yellow-300 */
     margin-right: 0px;
   }
 
+  .md\:mt-20{
+    margin-top: 5rem;
+  }
+
+  .md\:mt-36{
+    margin-top: 9rem;
+  }
+
+  .md\:mt-28{
+    margin-top: 7rem;
+  }
+
   .md\:inline{
     display: inline;
   }
@@ -1648,6 +1668,10 @@ hover:bg-gradient-to-br from-red-500 to-yellow-300 */
   .md\:h-1\/2{
     height: 50%;
   }
+
+  .md\:h-24{
+    height: 6rem;
+  }
 }
 
 @media (min-width: 1024px){
@@ -1657,6 +1681,10 @@ hover:bg-gradient-to-br from-red-500 to-yellow-300 */
 
   .lg\:col-span-8{
     grid-column: span 8 / span 8;
+  }
+
+  .lg\:mt-36{
+    margin-top: 9rem;
   }
 
   .lg\:max-w-screen-md{
