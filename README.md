@@ -1,3 +1,3 @@
 # byhafiz.com
 
-extermal dependencies: Tailwind CSS, swiperJS
+external dependencies: Tailwind CSS, swiperJS
